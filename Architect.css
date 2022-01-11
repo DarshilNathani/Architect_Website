@@ -1,0 +1,92 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+}
+.Header{
+    text-align: center;
+    background-color: rgb(241, 209, 139);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Navigation Bar */
+.navbar{
+    background-color: rgb(228, 163, 111);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 13px;
+}
+.navbar li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px 1px #CE5937;
+}
+.navbar li a:hover{
+    background: linear-gradient(90deg, #CC6600, #FFB266);
+    transition-duration: 0.5s;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 8px;
+    margin: 10px 10px;
+}
+
+
+/* Main Container */
+.container{
+    /* max-width: 960px; */
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+    position: relative;
+}
+
+/* Architectural Container */
+.archicontainer{
+    margin: 0 auto;
+    background: cornsilk;
+    font-size: 23px;
+    padding: 25px;
+    position: relative;
+}
+
+/* Interior Container */
+.interiorcontainer{
+    margin: 0 auto;
+    background: rgb(243, 233, 192);
+    font-size: 23px;
+    padding: 25px;
+    position: relative;
+}
+
+/* Parallax Effect */
+.parallax{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+#architecture1{
+    background-image: url(Background.jpg);
+}
+#interior1{
+    background-image: url(Interior-1.jpg);
+}
+.info{
+    padding-top: 350px;
+    text-align: center;
+    font-size: 50px;
+    color: #BF4D00;
+}
